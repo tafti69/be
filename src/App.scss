@@ -1,0 +1,61 @@
+@import "./styles/Contact.scss";
+@import "./styles/Services.scss";
+@import "./styles/Profile.scss";
+@import "./styles/Work.scss";
+@import "./styles/Navigation.scss";
+@import "./styles/Footer.scss";
+@import "./styles/Midamo.scss";
+@import "./styles/Header.scss";
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  // cursor: none;
+}
+
+body,
+html {
+  width: 100%;
+  height: 100vh;
+  font-family: "Josefin Sans";
+  margin: 0;
+  padding: 0;
+  background: #131313;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.intro {
+  background: #171717;
+  height: 100vh;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+// .cursor {
+//   height: 2rem;
+//   width: 2rem;
+//   position: absolute;
+//   z-index: 1000;
+//   background-color: #ebebeb;
+//   top: 0;
+//   left: 0;
+//   border-radius: 100%;
+//   pointer-events: none;
+//   transform: translate(-50%, -50%);
+//   transition: all 0.6s linear;
+//   transition-property: width, height, border;
+//   will-change: width, height, transform, border;
+// }

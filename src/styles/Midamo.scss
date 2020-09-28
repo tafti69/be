@@ -1,0 +1,94 @@
+.work-midamo {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  .mockup {
+    width: 375px;
+    z-index: 2;
+    @media (max-width: 600px) {
+      width: 330px;
+    }
+    img {
+      width: 100%;
+      display: block;
+      object-fit: cover;
+    }
+  }
+  .some-words {
+    p {
+      color: white;
+      font-size: 2.5rem;
+      font-weight: 400;
+      margin: 2rem auto;
+    }
+  }
+  .process {
+    h2 {
+      font-size: 5rem;
+      font-weight: 500;
+      color: white;
+      margin: 2rem auto;
+    }
+  }
+}
+
+.work-gg {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  .mockup {
+    display: flex;
+    margin: 0 auto;
+    .web {
+      width: 1000px;
+      margin: 1rem;
+      img {
+        width: 100%;
+        display: block;
+        object-fit: cover;
+      }
+    }
+    .mobile {
+      width: 375px;
+      margin: 1rem;
+      img {
+        width: 100%;
+        display: block;
+        object-fit: cover;
+      }
+    }
+  }
+  .some-words {
+    p {
+      color: white;
+      font-size: 2.5rem;
+      font-weight: 400;
+      margin: 2rem auto;
+    }
+  }
+  .process {
+    display: flex;
+    align-items: flex-start;
+    text-align: left;
+    h2 {
+      font-size: 2rem;
+      font-weight: 300;
+      color: white;
+      margin: 0.8rem 2rem;
+    }
+    ul {
+      list-style: none;
+      li {
+        color: white;
+        font-size: 1.5rem;
+        font-weight: 300;
+        margin: 0.8rem auto;
+      }
+    }
+  }
+}
