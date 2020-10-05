@@ -10,20 +10,20 @@
   display: none;
   .nav-button {
     position: absolute;
-    top: 2rem;
-    right: 2rem;
+    top: 1rem;
+    right: 1rem;
     button {
       background: none;
       outline: none;
       border: none;
       transform-origin: center;
       cursor: pointer;
-      padding: 2rem;
+      padding: 1rem;
       span {
         background-color: #131313;
         display: block;
         height: 1px;
-        width: 40px;
+        width: 30px;
         &:nth-child(1) {
           transform: rotate(45deg);
         }
@@ -39,7 +39,7 @@
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
-    margin: 4rem;
+    margin: 2rem;
     .menu-line {
       display: block;
       position: relative;
@@ -62,10 +62,10 @@
           display: block;
           position: relative;
           overflow: hidden;
-          font-size: 2rem;
-          line-height: 2.4rem;
+          font-size: 1.8rem;
+          line-height: 2.2rem;
           font-weight: 400;
-          margin: 2rem auto;
+          margin: 1rem auto;
           a {
             display: block;
             position: relative;
@@ -84,15 +84,14 @@
         position: relative;
         overflow: hidden;
 
-        margin: 1.2rem auto;
         .line-item {
           display: block;
           position: relative;
           color: #131313;
-
+          margin: 0.5rem auto;
           &.media {
-            font-size: 1.6rem;
-            line-height: 2.2rem;
+            font-size: 1.4rem;
+            line-height: 1.8rem;
             font-weight: 300;
             text-decoration: none;
 

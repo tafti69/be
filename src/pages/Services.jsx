@@ -48,11 +48,6 @@ const content = [
 ];
 
 const Services = () => {
-  // let ref = React.useRef(null);
-  // let ref1 = React.useRef(null);
-  // let ref2 = React.useRef(null);
-  // let ref3 = React.useRef(null);
-
   useEffect(() => {
     gsap.registerPlugin(ScrollTrigger);
 
@@ -61,39 +56,16 @@ const Services = () => {
       ease: "power2.out",
       skewY: 6,
     });
-
     gsap.from(".tech-item p", 1.8, {
       scrollTrigger: ".tech-item p",
       y: 200,
       ease: "power2.out",
-      stagger: 0.1,
     });
     gsap.from(".about-line h2", 1.8, {
       scrollTrigger: ".about-line h2",
       y: 200,
       ease: "power2.out",
     });
-
-    // gsap.from(ref, 1.8, {
-    //   scrollTrigger: ref,
-    //   y: 300,
-    //   ease: "power2.out",
-    // });
-    // gsap.from(ref1, 1.8, {
-    //   scrollTrigger: ref1,
-    //   y: 300,
-    //   ease: "power2.out",
-    // });
-    // gsap.from(ref2, 1.8, {
-    //   scrollTrigger: ref2,
-    //   y: 300,
-    //   ease: "power2.out",
-    // });
-    // gsap.from(ref3, 1.8, {
-    //   scrollTrigger: ref3,
-    //   y: 300,
-    //   ease: "power2.out",
-    // });
   }, []);
 
   return (
@@ -132,30 +104,6 @@ const Services = () => {
           ))}
         </div>
       </div>
-      {/* <div className="collab-about">
-        <div className="line">
-          <div ref={(el) => (ref = el)} className="line-item hey">
-            Hey! Tell us about
-          </div>
-        </div>
-        <div className="line">
-          <div ref={(el) => (ref1 = el)} className="line-item hey">
-            your idea.
-          </div>
-        </div>
-      </div>
-      <div className="collab-about">
-        <div className="line">
-          <div ref={(el) => (ref2 = el)} className="line-item idea">
-            We’re always interested in new opportunities and collaborations.
-          </div>
-        </div>
-        <div className="line">
-          <div ref={(el) => (ref3 = el)} className="line-item idea">
-            Contact us about your project.
-          </div>
-        </div>
-      </div> */}
       <Footer />
     </>
   );

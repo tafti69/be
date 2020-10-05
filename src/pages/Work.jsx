@@ -62,7 +62,7 @@ const Work = () => {
         <div className="project-item">
           <NavLink to="/midamo" exact>
             <h3>Our own project</h3>
-            <div className="frame orange">
+            <div className="frame ">
               <img src={mi} alt="" />
             </div>
           </NavLink>
@@ -70,7 +70,7 @@ const Work = () => {
         <div className="project-item">
           <NavLink to="/gundelik" exact>
             <h3>Partner's project</h3>
-            <div className="frame blue">
+            <div className="frame ">
               <img src={gg} alt="" />
             </div>
           </NavLink>

@@ -15,7 +15,6 @@
       font-weight: 400;
       display: block;
       position: relative;
-      color: #f1f2f9;
       @media (max-width: 1440px) {
         line-height: 6rem;
         font-size: 6rem;
@@ -45,7 +44,6 @@
       line-height: 2rem;
       font-weight: 300;
       position: relative;
-      color: #f1f2f9;
       display: flex;
       @media (max-width: 600px) {
         font-size: 1.2rem;
@@ -124,7 +122,6 @@
         .footer-line-item {
           display: block;
           position: relative;
-          color: #f1f2f9;
           text-align: left;
           &.job {
             font-size: 1.6rem;
@@ -150,7 +147,7 @@
               position: absolute;
               z-index: -1;
               height: 1px;
-              background-color: #f1f2f9;
+              background-color: #040404;
             }
 
             &::before {
@@ -176,7 +173,7 @@
                 left: 100%;
                 width: 0%;
                 transition: all ease 0.2s;
-                background-color: #f1f2f9;
+                background-color: #040404;
               }
             }
           }
@@ -192,7 +189,6 @@
         .footer-line-item {
           display: block;
           position: relative;
-          color: #f1f2f9;
 
           &.footer-media {
             font-size: 1.6rem;
@@ -215,7 +211,7 @@
               display: block;
               right: 0;
               margin-top: -2px;
-              background: #f1f2f9;
+              background: #040404;
               transition: 0.4s ease;
             }
             &:hover {
@@ -223,7 +219,7 @@
               &::after {
                 width: 100%;
                 left: 0;
-                background: #f1f2f9;
+                background: #040404;
               }
             }
           }

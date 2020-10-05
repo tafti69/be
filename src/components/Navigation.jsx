@@ -22,17 +22,17 @@ const Navigation = ({ setMenuState }) => {
             <ul>
               <li>
                 <NavLink activeClassName="active" exact to="/">
-                  Profile
+                  Home
                 </NavLink>
               </li>
               <li>
                 <NavLink activeClassName="active" exact to="/services">
-                  Services
+                  About
                 </NavLink>
               </li>
               <li>
                 <NavLink activeClassName="active" exact to="/work">
-                  Work
+                  Projects
                 </NavLink>
               </li>
               <li>

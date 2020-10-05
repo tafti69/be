@@ -83,10 +83,17 @@
       }
       .frame {
         text-align: center;
+        overflow: hidden;
+        position: relative;
         img {
           width: 100%;
           display: block;
           object-fit: cover;
+          transition: 0.2s linear;
+          &:hover {
+            transform: scale(0.96);
+            border-radius: 10%;
+          }
         }
       }
     }

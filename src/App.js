@@ -9,33 +9,22 @@ import Midamo from "./pages/Midamo";
 import Header from "./components/Header";
 import Gundelik from "./pages/Gundelik";
 import ScrollToTop from "./components/ScrollToTop";
+import AnimatedCursor from "react-animated-cursor";
+import NotFound from "./pages/NotFound";
 
 function App() {
-  // const [mousePos, setMousePos] = useState({
-  //   x: 10,
-  //   y: 10,
-  // });
-
-  // const onMouseMove = (event) => {
-  //   const { pageX: x, pageY: y } = event;
-  //   setMousePos({ x, y });
-  // };
-
-  // useEffect(() => {
-  //   document.addEventListener("mousemove", onMouseMove);
-  //   return () => {
-  //     document.removeEventListener("mousemove", onMouseMove);
-  //   };
-  // }, []);
-
   return (
     <Router>
       <ScrollToTop>
         <div className="App">
-          {/* <div
-            // style={{ left: `${mousePos.x}px`, top: `${mousePos.y}px` }}
-            className="cursor"
-          ></div> */}
+          <AnimatedCursor
+            innerSize={12}
+            outerSize={18}
+            color="251, 249, 247"
+            outerAlpha={0.2}
+            innerScale={0.5}
+            outerScale={5}
+          />
           <Header />
           <Switch>
             <Route exact path="/" component={Profile} />
@@ -44,6 +33,7 @@ function App() {
             <Route exact path="/contact" component={Contact} />
             <Route exact path="/midamo" component={Midamo} />
             <Route exact path="/gundelik" component={Gundelik} />
+            <Route component={NotFound} />
           </Switch>
         </div>
       </ScrollToTop>
